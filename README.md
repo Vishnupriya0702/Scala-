@@ -68,6 +68,22 @@ Maps
 Tuples
 Lists
 
+05/16/2021:
+String Interpolation in Scala : String Interpolation is a kind to embed variables to directly reference string.
+
+For Loop : Result can be fetched in 2 ways :
+1st way : By using the println statement
+2nd way : By using the yield statement
+By using the yield statement, we can get the data as follows:
+val result = for{i<- list; if i<6} yield { i*i}
+
+Case Statements in Scala :
+ i match {
+case i =>  println
+If any argument doesnt match, then we can use the following statement as below :
+case _ => println("default")
+
+
 
 Array :
 val x= new Array[Int] (12)
